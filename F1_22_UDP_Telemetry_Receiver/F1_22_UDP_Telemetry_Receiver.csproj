@@ -8,7 +8,7 @@
     <Title>F1 22 UDP Telemetry Receiver</Title>
     <Authors>cov.sw</Authors>
     <Company>cov.sw</Company>
-    <Description>The F1_2022_UDP_Receiver class is a UDP packet receiver specifically designed to work with the 2022 Formula 1 data streams. It provides an event-driven architecture, enabling users to subscribe to different kinds of packet data types (like Car Status, Lap Data, Session Data etc.) and handle them according to their specific needs. The class supports a default or user-specified IP address and port for listening to incoming packets.</Description>
+    <Description>The F1_2022_UDP_Receiver class is a UDP packet receiver specifically designed to work with EA Sports F1 22 data streams. It provides an event-driven architecture, enabling users to subscribe to different kinds of packet data types (like Car Status, Lap Data, Session Data etc.) and handle them according to their specific needs. The class supports a default or user-specified IP address and port for listening to incoming packets.</Description>
     <PackageProjectUrl>https://github.com/willocov/F1_22_UDP_Telemetry_Receiver</PackageProjectUrl>
     <PackageIcon>race_car_icon_126083.png</PackageIcon>
     <RepositoryUrl>https://github.com/willocov/F1_22_UDP_Telemetry_Receiver</RepositoryUrl>
@@ -17,6 +17,8 @@
     <PackageReleaseNotes>Initial Upload</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>SimRacing.Telemetry.F1.22</PackageId>
+    <Product>SimRacing.Telemetry.F1.22</Product>
   </PropertyGroup>
 
   <ItemGroup>
