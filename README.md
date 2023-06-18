@@ -4,6 +4,8 @@ Note: This is a c# class to receive telemetry data. It is not an application and
 Note: Work in progress. Further documentation coming.
 
 The F1_2022_UDP_Receiver class is a UDP packet receiver specifically designed to work with the 2022 Formula 1 data streams. It provides an event-driven architecture, enabling users to subscribe to different kinds of packet data types (like Car Status, Lap Data, Session Data etc.) and handle them according to their specific needs. The class supports a default or user-specified IP address and port for listening to incoming packets.
+
+UDP specification from EA: https://docs.google.com/document/d/1rEdWyJdzIpHeaVLkV9o_uICrOViF21cP/edit?usp=sharing&ouid=109802826249883598381&rtpof=true&sd=true
 Usage
 
 First, you create an instance of the F1_2022_UDP_Receiver class.
