@@ -1,4 +1,4 @@
-# F1_22_UDP_Telemetry_Receiver
+# SimRacing.Telemetry.Receiver.F1.22
 
 Note: This is a c# class to receive telemetry data. It is not an application and does not include a user interface. Sample project coming soon.
 Note: Work in progress. Further documentation coming.
