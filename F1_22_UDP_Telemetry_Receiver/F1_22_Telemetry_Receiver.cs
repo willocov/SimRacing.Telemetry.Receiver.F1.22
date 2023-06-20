@@ -14,7 +14,7 @@ namespace Sim_Racing_UDP_Receiver.Games.F1_2022
     /// <summary>
     /// HOW TO USE: Create an object. Subscribe to events to receive packets. Call StartReceiving()
     /// </summary>
-    public class F1_2022_UDP_Receiver
+    public class F1_22_Telemetry_Receiver
     {
         #region Properties
         private CancellationTokenSource cts = new CancellationTokenSource();    //used to cancel loop that listens for UDP packets
@@ -31,7 +31,7 @@ namespace Sim_Racing_UDP_Receiver.Games.F1_2022
         /// May encounter network/firewall issues when receiving on a separate device than the game is running on.
         /// </summary>
 
-        public F1_2022_UDP_Receiver()
+        public F1_22_Telemetry_Receiver()
         {
             ipAddress = null;
             port = DEFAULT_PORT;
@@ -48,7 +48,7 @@ namespace Sim_Racing_UDP_Receiver.Games.F1_2022
         /// <param name="_ipAddress">The IP address to bind the UDP receiver to.</param>
         /// <param name="_portNbr">The port number to listen on.</param>
 
-        public F1_2022_UDP_Receiver(string _ipAddress, int _portNbr)
+        public F1_22_Telemetry_Receiver(string _ipAddress, int _portNbr)
         {
             ipAddress = _ipAddress;
             port = _portNbr;

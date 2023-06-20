@@ -22,7 +22,7 @@ namespace Sim_Racing_UDP_Receiver
         {
             try
             {
-                F1_2022_UDP_Receiver uDP_Receiver = new F1_2022_UDP_Receiver();
+                F1_22_Telemetry_Receiver uDP_Receiver = new F1_22_Telemetry_Receiver();
                 TestEventHandlers test = new TestEventHandlers();
                 uDP_Receiver.CarTelemetryDataPacketReceived += test.CarTelemetryPacketReceived;
                 uDP_Receiver.StartReceiving();
